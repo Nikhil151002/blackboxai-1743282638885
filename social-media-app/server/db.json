@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "demo_user",
+      "email": "user@example.com",
+      "password": "password123",
+      "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+      "bio": "Just a demo user for testing",
+      "createdAt": "2023-01-15T10:30:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "type": "text",
+      "content": "This is a sample text post for demonstration purposes.",
+      "authorId": 1,
+      "likes": [],
+      "comments": [],
+      "createdAt": "2023-01-20T12:45:00Z"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "content": "https://source.unsplash.com/random/800x600",
+      "authorId": 1,
+      "likes": [],
+      "comments": [],
+      "createdAt": "2023-01-21T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "type": "video",
+      "content": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "authorId": 1,
+      "likes": [],
+      "comments": [],
+      "createdAt": "2023-01-22T14:20:00Z"
+    }
+  ],
+  "relationships": []
+}
